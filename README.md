@@ -1,5 +1,5 @@
 # Todo List Web-App
-## [Live Version](http://todoapp.bhushankolhe.com/ "Todo List App")
+
 This is a Full-Stack Todo List web-App. This App is created using:
 * React.Js
 * HTML
