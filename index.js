@@ -30,9 +30,9 @@ const createTcpPool = async config => {
   
     // Establish a connection to the database
     return await mysql.createPool({
-      user: 'todos_user', // e.g. 'my-db-user'
-      password: '8eac9667', // e.g. 'my-db-password'
-      database: 'todoapp', // e.g. 'my-database'
+      user: '<>', // e.g. 'my-db-user'
+      password: '<>', // e.g. 'my-db-password'
+      database: '<>', // e.g. 'my-database'
       // If connecting via unix domain socket, specify the path
       socketPath: `${dbSocketPath}/${process.env.CLOUD_SQL_CONNECTION_NAME}`,
       // Specify additional properties here.
